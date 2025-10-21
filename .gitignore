@@ -1,0 +1,60 @@
+# Visual Studio / Rider / IDE
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vsix
+*.nupkg
+*.snupkg
+
+# EF Core Migrations
+Migrations/
+**/Migrations/
+
+# User-specific files
+*.local
+*.dotCover
+*.coverage
+*.opendb
+
+# Rider project files
+.idea/
+*.iml
+
+# ASP.NET Core
+wwwroot/
+appsettings.*.json
+appsettings.json
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+
+# Node / NPM if used
+node_modules/
+dist/
+
+# Logs
+*.log
+logs/
+*.trace
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
